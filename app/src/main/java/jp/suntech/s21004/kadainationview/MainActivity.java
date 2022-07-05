@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // ListViewオブジェクトを取得
-        ListView lvMenu = findViewById(R.id.lvNation);
+        ListView lvNation = findViewById(R.id.lvNation);
         // ListViewにリスナを設定
-        lvMenu.setOnItemClickListener(new ListItemClickListener());
+        lvNation.setOnItemClickListener(new ListItemClickListener());
     }
 
     // リストがタップされた時の処理が記述されたメンバクラス
@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             // タップされた国家名を取得
             String item = (String) parent.getItemAtPosition(position);
+            // 設定するテキスト
             String text = "選択した国家: " + item;
-            TextView tvShow = (TextView) findViewById(R.id.tvShow);
             // テキストビューにテキストを設定
-            tvShow.setText(text);
+            ((TextView) findViewById(R.id.tvShow)).setText(text);
         }
     }
 }
