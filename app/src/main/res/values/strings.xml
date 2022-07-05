@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">第１１回課題</string>
-    <string name="tv_title">１５か国のリスト</string>
     <string-array name="lv_nation">
         <item>日本</item>
         <item>アメリカ</item>
@@ -8,15 +7,14 @@
         <item>ドイツ</item>
         <item>イタリア</item>
         <item>フランス</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>ロシア</item>
+        <item>中国</item>
+        <item>オーストラリア</item>
+        <item>インド</item>
+        <item>カナダ</item>
+        <item>スペイン</item>
+        <item>メキシコ</item>
+        <item>オランダ</item>
+        <item>ニュージーランド</item>
     </string-array>
 </resources>
